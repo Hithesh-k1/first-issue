@@ -15,7 +15,7 @@ export const Header = () => {
     <header className="container mx-auto my-5 flex max-w-6xl flex-col items-center bg-dark-400 p-6 md:my-10 md:flex-row md:justify-between">
       <nav className="flex flex-wrap items-center md:justify-center">
         <Link href="/">
-          <Image src="/firstissue.png" alt="First Issue" className="h-12" width={290} height={51} />
+          <Image src="/firstissue.png" alt="First Issue" loading="lazy" width={290} height={51} />
         </Link>
         {path && tag ? (
           <span className="cursor-pointer pt-3 text-2xl">
